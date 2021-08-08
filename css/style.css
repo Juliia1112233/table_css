@@ -1,0 +1,94 @@
+/*
+* {
+    color: yellow;
+    text-decoration: overline;
+}
+
+li {
+    margin: 20px;
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+.linkClass {
+    color: green;
+}
+
+#linkId {
+    color: blueviolet;
+}
+#linkId2 {
+    color: rgb(0, 0, 0);
+}
+*/
+
+/* ПСЕВДОКЛАССЫ 
+:root {
+    --first-font-size: 14px;
+    --second-font-size: 20px;
+    --hover-color-font: white;
+    --primary-color: black;
+    --second-color: blue;
+}
+
+
+a:link {
+    color:blue; 
+}
+a:visited {
+    color:pink; 
+}
+a:hover {
+    color:red;
+    font-size: 20px;
+}
+a:active {
+    color:yellow; 
+}
+
+div {
+    background-color:var(--primary-color);
+    color: var(--second-color);
+}
+
+div:hover {
+    background-color: blue;
+}
+*/
+
+table, th, td {
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+
+}
+caption{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: rgba(55, 71, 105, 0.747);
+}
+
+tfoot {
+    background-color: gray;
+    color: black;
+    font-size: bold;
+}
+
+tbody td:nth-child(odd) {
+    background-color: #78d6e2;
+  }
+
+tbody tr:nth-child(odd) {
+    background-color: #78d6e2;
+  }
+
+tr:nth-child(odd)>td:nth-child(odd) {
+      background: #35c9bc;
+  }
